@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="md:py-5 py-0 flex justify-between items-center">
+        <p class="logo text-2xl md:my-2 px-3 py-5 md:p-0 grey">Dee's Estates</p>
+
+        <span class="links flex md:gap-5 md:font-base font-semibold">
+            <a href="" >Home</a>
+            <a href="">Rent</a>
+            <a href="">Land</a>
+            <a href="">Agent</a>
+            <a href="">Contact Us</a>
+        </span>
+        
+        <button type="submit" class="md:text-base text-sm md:font-base font-semibold px-6 py-2 rounded-md get-started">Get Started</button>
+                
+        <div class="md:hidden hamburger-menu z-10 md:my-2 px-3 py-5 md:p-0">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <hr>
+
+    <div class="flex items-center hero-div">
+        <div class="equal-width">
+            <p class="hero-text dark-b-text font-semibold">Helping you find the property of your dreams.</p>
+            <p class="text-lg">Creating quality urban lifestyles, building stronger communities</p>
+
+            <button type="submit" class="px-6 py-2 rounded-md">Learn More</button>
+            <img class="inline w-8" src="assets/play.png" alt="">
+        </div>
+
+        <div class="md:w-max relative">
+            <img class="absolute circles md:hidden" src="assets/circles.png" alt="">
+            <img class="big-house ml-auto" src="assets/house-1.png" alt="a house image">
+        </div>
+    </div>
+
+    <div class="select-tab bg-white mx-auto my-10 flex justify-between items-center rounded-md">
+        <span class="flex flex-col">
+            <label for="" class="pl-1 font-semibold dark-b-text">Location</label>
+            <select name="location" id="">
+                <option value="">Lekki</option>
+                <option value="">Victoria Island</option>
+                <option value="">Epe</option>
+                <option value="">Ikeja</option>
+                <option value="">Badagry</option>
+            </select>
+        </span>
+
+        <span class="flex flex-col ">
+            <label for="" class="pl-1 font-semibold dark-b-text">Property Type</label>
+            <select name="location" id="">
+                <option value="">Duplex</option>
+                <option value="">Bungalow</option>
+                <option value="">Single Flat</option>
+                <option value="">Mini Quarters</option>
+                <option value="">Trenches 💀</option>
+            </select>
+        </span>
+        
+        <span class="flex flex-col ">
+            <label for="" class="pl-1 font-semibold dark-b-text">Max Price</label>
+            <select name="location" id="">
+                <option value="">$10,000</option>
+                <option value="">$15,000</option>
+                <option value="">$20,000</option>
+                <option value="">$25,000</option>
+                <option value="">$30,000</option>
+                
+            </select>
+        </span>
+        
+        <button type="submit" class="px-6 py-2 rounded-md">
+            <img src="assets/search.svg" alt="" class="inline w-3.5 mr-2 align-middle">
+            Search
+        </button>
+    </div>
+    
+    <div class="text-center">
+        <p class="text-2xl font-bold dark-b-text">How it works</p>
+        <p class="text-lg">This is how our products work</p>
+    </div>
+
+    <div class="flex gap-6 steps justify-center flex-wrap">
+        <div class=" bg-white px-5 py-8 text-center">
+            <img class="w-10 mx-auto my-6" src="assets/address mark.svg" alt="location icon">
+            <p class="text-xl my-3">Find Home</p>
+            <p class="text-sm">Our properties are located at prime areas where by there won't be problem with transportation</p>
+        </div>
+
+        <div class=" bg-white px-5 py-8 text-center">
+            <img class="w-20 mx-auto my-6" src="assets/Smart house.svg" alt="location icon">
+            <p class="text-xl my-3">Make Payments</p>
+            <p class="text-sm">Our estates comes with good network, potable water, 24hrs light and round the clock security</p>
+        </div>
+        
+        <div class=" bg-white px-5 py-8 text-center">
+            <img class="w-20 mx-auto my-6" src="assets/Secure data protection with fingerprint and lock.svg" alt="location icon">
+            <p class="text-xl my-3">Make it Official</p>
+            <p class="text-sm">We have been in business for over 32 years,for clients outside the country you can trust us to deliver well</p>
+        </div>
+    </div>
+
+    <div class="flex items-center flex-col md:flex-row">
+        <img class="big-house" src="assets/house-2.png" alt="image of an home">
+        
+        <span class="equal-width mx-auto md:ml-4">
+            <p class="text-2xl font-bold dark-b-text text-center md:text-left">Why you should choose us</p>
+            <p class="text-center md:text-left ">Creating quality urban lifestyles, building stronger communities</p>
+
+            <ul class="flex gap-20 justify-center md:justify-start">
+                <span>
+                    <li class="font-semibold"> <img class="mb-1 mr-1" src="assets/check.png" alt=""> World class</li>
+                    <li class="font-semibold"> <img class="mb-1 mr-1" src="assets/check.png" alt=""> Affordable</li>
+                </span>
+                <span class="ml-4">
+                    <li class="font-semibold"> <img class="mb-1 mr-1" src="assets/check.png" alt=""> Trusted</li>
+                    <li class="font-semibold"> <img class="mb-1 mr-1" src="assets/check.png" alt=""> Amenities</li>
+                </span>
+            </ul>
+        </span>
+    </div>
+    
+    <div class="f-properties">
+        <div class="text-center">
+            <p class="text-2xl font-bold dark-b-text">Our Featured Properties</p>
+            <p>One of our biggest products to be featured that has sold out the most</p>
+        </div>
+        
+        <button type="submit" class="block text-sm ml-auto px-6 py-2 rounded-xl nunito">View More</button>
+        
+        <div class="flex flex-wrap justify-center gap-12">
+
+            <div class="bg-white px-8 py-2 inline-block rounded-tr-2xl rounded-bl-2xl property">
+                <img class="small-house" src="assets/sm-house-1.png" alt="">
+                <div class="flex items-end justify-between py-2">
+                    <span>
+                        <p class="text-lg  font-semibold">The Palace</p>
+                        <p class="text-sm">Lekki phase 2</p>
+                    </span>
+                    <span>
+                        <p class="text-sm">Duplex</p>
+                        <p class="font-semibold dark-b-text">$2,000</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="bg-white px-8 py-2 inline-block rounded-tr-2xl rounded-bl-2xl property">
+                <img class="small-house" src="assets/sm-house-2.png" alt="">
+                <div class="flex items-end justify-between py-2">
+                    <span>
+                        <p class="text-lg  font-semibold">Ivy Rory</p>
+                        <p class="text-sm">Badagry</p>
+                    </span>
+                    <span>
+                        <p class="text-sm">Duplex</p>
+                        <p class="font-semibold dark-b-text">$5,000</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="bg-white px-8 py-2 inline-block rounded-tr-2xl rounded-bl-2xl property">
+                <img class="small-house" src="assets/sm-house-3.png" alt="">
+                <div class="flex items-end justify-between py-2">
+                    <span>
+                        <p class="text-lg  font-semibold">Rexona</p>
+                        <p class="text-sm">Epe</p>
+                    </span>
+                    <span>
+                        <p class="text-sm">Duplex</p>
+                        <p class="font-semibold dark-b-text">$3,000</p>
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="testimonial my-16">
+        <div class="text-center">
+            <p class="text-2xl font-bold dark-b-text">Testimonials</p>
+            <p>This is what our clients are saying</p>
+        </div>
+
+        <button type="submit" class="block text-sm ml-auto px-6 py-2 rounded-xl nunito">View More</button>
+        
+        <div class="testimonies flex flex-wrap justify-center gap-8">
+            <div class="inline-block bg-white p-3 rounded-lg flex-1">
+                <p class="text-xl font-bold">Alex Godwin</p>
+                <p class="text-sm my-3 country nunito">South Africa</p>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum dolor neque id omnis voluptas odit, inventore itaque cumque praesentium.</p>
+            </div>
+
+            <div class="inline-block bg-white p-3 rounded-lg flex-1">
+                <p class="text-xl font-bold">Adam Grant</p>
+                <p class="text-sm my-3 country nunito">USA</p>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum dolor neque id omnis voluptas odit, inventore itaque cumque praesentium.</p>
+            </div>
+
+            <div class="inline-block bg-white p-3 rounded-lg flex-1">
+                <p class="text-xl font-bold">Sim Shagaya</p>
+                <p class="text-sm my-3 nunito country">Nigeria</p>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum dolor neque id omnis voluptas odit, inventore itaque cumque praesentium.</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <footer class= "py-16 text-white flex flex-wrap gap-10">
+        <div class="company">
+            <p class="logo text-2xl my-2">Dee's Estates</p>
+            <p class="nunito w-4/5">Solution for easy and flexible house hunting. You can trust us anywhere through this platform</p>
+        </div>
+        
+        <div>
+            <p class="text-lg font-semibold my-2">Property</p>
+            <ul>
+                <li>Learning modules</li>
+                <li>Partnerships</li>
+                <li>Watch demo</li>
+                <li>Event</li>
+            </ul>
+        </div>
+
+        <div >
+            <p class="text-lg font-semibold my-2">About</p>
+            <ul>
+                <li>Our company</li>
+                <li>Career</li>
+                <li>Investors relations</li>
+                <li>Social Impact</li>
+            </ul>
+        </div>
+        
+        <div >
+            <p class="text-lg font-semibold my-2">Resources</p>
+            <ul>
+                <li>Contact</li>
+                <li>Give feedback</li>
+                <li>System status</li>
+                <li>Privacy policy</li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 800,
+          delay: 300
+      });
+    </script>
+</body>
+</html>

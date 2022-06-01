@@ -9,6 +9,7 @@
 body {
   background-color: #fafafa;
   font-family: 'Space Grotesk', sans-serif;
+  overflow-x: hidden;
 }
 
 body > * {

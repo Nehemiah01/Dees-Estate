@@ -20,6 +20,7 @@ $dark-blue: #0F298B;
 body {
     background-color: #fafafa;
     font-family: 'Space Grotesk', sans-serif;
+    overflow-x: hidden;
 }
 
 body > * {
@@ -46,7 +47,6 @@ nav {
 }
 .logo {
     font-family: 'Oleo Script', cursive;
-    // padding-top: 2rem;
     z-index: 5;
 }
 

@@ -11,3 +11,8 @@ hamburger.addEventListener('click', () => {
     links.classList.toggle('display')
     getStarted.classList.toggle('display')
 })
+
+
+document.addEventListener('scroll', () => {
+    document.documentElement.dataset.scroll = window.scrollY;
+});

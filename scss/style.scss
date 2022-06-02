@@ -23,6 +23,12 @@ body {
     overflow-x: hidden;
 }
 
+html:not([data-scroll='0']) {
+    nav {
+        filter: drop-shadow(0px 9px 18px rgba(0,0,0,0.15));
+    }
+}
+
 body > * {
     padding: $large-screen-padding;
 }
@@ -203,14 +209,8 @@ footer {
     }
     nav {
         padding: 0;
-        filter: none;
     }
     
-    html:not([data-scroll='0']) {
-        nav {
-            filter: drop-shadow(0px 9px 18px rgba(0,0,0,0.15));
-        }
-    }
     .links, .get-started {
         position: absolute;
         left: 0;

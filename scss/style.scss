@@ -316,3 +316,12 @@ footer {
     }
 
 }
+
+@media screen and (max-width:500px) {
+    .perks {
+        gap: 2rem;
+    }
+    .equal-width img {
+        margin: 0;
+    }
+}
